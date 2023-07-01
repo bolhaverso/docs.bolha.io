@@ -1,0 +1,16 @@
+site_name: docs.bolha.io
+site_description: Docs for bolha.io
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - markdownextradata
+
+markdown_extensions:
+  - mdx_include
