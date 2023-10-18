@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: bolha/docs:dev
+    ports:
+      - '8000:8000'
+    volumes:
+      - './:/app'
+    command: make serve

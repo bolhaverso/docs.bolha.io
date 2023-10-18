@@ -29,6 +29,8 @@ O Makefile contém várias tarefas que ajudam a configurar e rodar o projeto.
 
 - `make serve` : Serve o site localmente para desenvolvimento. Você pode visualizar o site navegando para `http://localhost:8000` no seu navegador.
 
+- `make pod`: Funciona como o `make serve`, mas dentro de um container Podman. Faz o install das dependências automaticamente sem precisar ativar o ambiente virtual.
+
 ## Arquivo requirements.txt
 
 As dependências necessárias para este projeto estão listadas no arquivo `requirements.txt`.

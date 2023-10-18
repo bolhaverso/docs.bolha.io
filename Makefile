@@ -11,4 +11,7 @@ build:
 	mkdocs build
 
 serve:
-	mkdocs serve
+	mkdocs serve --dev-addr 0.0.0.0:8000
+
+pod:
+	podman-compose up
