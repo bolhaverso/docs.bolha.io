@@ -10,5 +10,5 @@ install:
 build:
 	mkdocs build
 
-run:
+serve:
 	mkdocs serve

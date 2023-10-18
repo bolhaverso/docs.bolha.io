@@ -27,7 +27,7 @@ O Makefile contém várias tarefas que ajudam a configurar e rodar o projeto.
 
 - `make build` : Constrói o site usando o MkDocs.
 
-- `make run` : Serve o site localmente para desenvolvimento. Você pode visualizar o site navegando para `http://localhost:8000` no seu navegador.
+- `make serve` : Serve o site localmente para desenvolvimento. Você pode visualizar o site navegando para `http://localhost:8000` no seu navegador.
 
 ## Arquivo requirements.txt
 
